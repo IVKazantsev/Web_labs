@@ -1,0 +1,20 @@
+{
+    "name": "root/code",
+    "autoload": {
+        "psr-4": {
+            "Root\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ilya"
+        }
+    ],
+    "config": {
+        "process-timeout":0
+    },
+    "require": {
+        "google/apiclient": "^2.13",
+        "ext-mbstring": "*"
+    }
+}
